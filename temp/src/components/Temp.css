@@ -1,0 +1,19 @@
+.tempshow{
+    background-color: black;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+
+}
+.degvalue{
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+.tempshow button{
+     margin: 10px;
+}

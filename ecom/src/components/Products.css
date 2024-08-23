@@ -1,0 +1,28 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+    }.cart{
+        /* border: 2px solid rgb(145, 222, 135); */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .card{
+        border: 2px solid rgb(177, 154, 22);
+        height:auto;
+        width:300px;
+        z-index: 1000;
+        
+       
+        
+    }
+     
+     .image img{
+        object-fit:contain;
+     }
+    
+    

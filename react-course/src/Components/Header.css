@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height:15vh;
+    
+    align-items: center;
+}
+.header .logo img{
+    width:80px;
+}
+.menu-item ul {display: flex;   }
+.menu-item ul li{
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 600;
+    color: white;
+}
